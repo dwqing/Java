@@ -47,6 +47,17 @@ public class repeatedArray {
         }
         return -1;
     }
+    //双循环
+    public int findRepeatNumber4(int[] nums){
+        for (int i=0;i<nums.length;i++){
+            for (int j=i+1;j<nums.length;j++){
+                if (nums[j] == nums[i]){
+                    return nums[j];
+                }
+            }
+        }
+        return -1;
+    }
 
 
     public static void main(String[] args) {
