@@ -4,7 +4,8 @@ import java.util.HashSet;
 import java.util.Set;
 
 
-//自己写的，不想用双循环一点bug'
+//自己写的，不想用双循环
+// 但是有一点bug'
 public class repeatedArray {
     public int findRepeatNumber(int[] nums) {
         int j=0,i=1;
